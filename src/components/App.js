@@ -24,7 +24,7 @@ class App extends React.Component {
           />
         </div>
         {/* use Provider and assign props value */}
-        <ColorContext.Provider value="red">
+        <ColorContext.Provider value="primary">
           <LanguageContext.Provider value={this.state.language}>
             <UserCreate />
           </LanguageContext.Provider>
